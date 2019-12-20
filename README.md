@@ -1,3 +1,13 @@
+##**注意**
+###1.版本问题
+node 版本最好为最新，或者注意electron版本对应的nodejs版本
+否则npm i electron后，启动项目报electron not found错误 
+###2.启动空白问题
+需要安装concurrently 下面这条命令
+npm install concurrently --save
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
